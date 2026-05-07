@@ -4,14 +4,19 @@
   <title>Activity Lab (Alpha)</title>
 </head>
 <body>
+
+<a id="gameLink" href="#" class="button" onclick="sayHello(this.href)">Go to Page</a>
   
 <script>
-  var GameLoaderUrl = "game_loader.html";
+  function sayHello(url) {
+    alert(url);
+  }
+
+    var GameLoaderUrl = "game-loader.html";
 
   document.getElementById("gameLink").href = GameLoaderUrl;
+  
 </script>
-
-<a href= GameLoaderUrl class="button">Go to Page</a>
 
 </body>
 </html>

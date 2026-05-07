@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
+<style>
+  .topper {
+    background-color: grey;
+  }
+</style>
+  
 <head>
   <title>Activity Lab (Alpha)</title>
 </head>
+  
 <body>
+  <div class="topper">
+    <p1>Activity Lab (Alpha)</p1>
+    <button> 
+    <img scr=>
+    </button>
+  </div>
 
-<a id="gameLink" href="#" class="button" onclick="sayHello(this.href)">Go to Page</a>
+<a id="gameLink" href="#" class="button" onclick="RedirectToAnotherPage(this.href)">Go to Page</a>
+
+
   
 <script>
-  function sayHello(url) {
-    alert(url);
+  function RedirectToAnotherPage(url) {
+    window.location.href = url;
   }
 
     var GameLoaderUrl = "game-loader.html";
